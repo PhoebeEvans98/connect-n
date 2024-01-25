@@ -59,11 +59,6 @@
             <artifactId>connectn-player</artifactId>
             <version>1.6</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.PhoebeEvans98</groupId>
-            <artifactId>connect-n</artifactId>
-            <version>1.4</version>
-        </dependency>
     </dependencies>
 
     <build>
