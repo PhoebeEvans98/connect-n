@@ -12,7 +12,6 @@ public class FourtunateIfIWin extends Player {
     //TODO: fill in your name here
     super(counter, FourtunateIfIWin.class.getName());
   }
-
   @Override
   public int makeMove(Board board) {
     Random random = new Random();

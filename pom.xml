@@ -57,13 +57,13 @@
         <dependency>
             <groupId>com.github.THG-accelerator</groupId>
             <artifactId>connectn-player</artifactId>
-            <version>1.7</version>
+            <version>1.6</version>
         </dependency>
-    <dependency>
-        <groupId>com.github.PhoebeEvans98</groupId>
-        <artifactId>FourtunateIfIWin</artifactId>
-        <version>1.3</version>
-    </dependency>
+        <dependency>
+            <groupId>com.github.PhoebeEvans98</groupId>
+            <artifactId>connect-n</artifactId>
+            <version>1.4</version>
+        </dependency>
     </dependencies>
 
     <build>
