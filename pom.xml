@@ -20,7 +20,7 @@
 
     <properties>
         <!-- FIXME Fill in these properties - they need to be lowercase -->
-        <yourteam>phoebe</yourteam>
+        <yourteam>FourtunateIfIWin</yourteam>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -59,11 +59,11 @@
             <artifactId>connectn-player</artifactId>
             <version>1.6</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.PhoebeEvans98</groupId>
-            <artifactId>connect-n</artifactId>
-            <version>1.2</version>
-        </dependency>
+    <dependency>
+        <groupId>com.github.PhoebeEvans98</groupId>
+        <artifactId>FourtunateIfIWin</artifactId>
+        <version>1.3</version>
+    </dependency>
     </dependencies>
 
     <build>
