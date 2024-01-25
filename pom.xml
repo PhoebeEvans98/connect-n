@@ -18,7 +18,7 @@
     <!--suppress UnresolvedMavenProperty -->
     <name>${yourteam}'s Connect N AI</name>
 
-    <properties>
+    <properties>git s
         <!-- FIXME Fill in these properties - they need to be lowercase -->
         <yourteam>phoebe</yourteam>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
