@@ -12,6 +12,7 @@ public class FourtunateIfIWin extends Player {
     //TODO: fill in your name here
     super(counter, FourtunateIfIWin.class.getName());
   }
+
   @Override
   public int makeMove(Board board) {
     Random random = new Random();
@@ -22,9 +23,11 @@ public class FourtunateIfIWin extends Player {
     }
     return randomIndex;
   }
+
   private boolean isValidMove(Board board, int col) {
     return !board.hasCounterAtPosition(new Position(col, board.getConfig().getHeight() - 1));
   }
+
   private boolean isColumnFull(Board board, int col) {
     int row = 0;
     while (row < board.getConfig().getHeight() && board.hasCounterAtPosition(new Position(col, row))) {
@@ -32,4 +35,5 @@ public class FourtunateIfIWin extends Player {
     }
     return row == board.getConfig().getHeight();
   }
+
 }
